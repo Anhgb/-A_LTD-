@@ -41,7 +41,7 @@
    ```
 2. Mở dự án bằng **Android Studio Ladybug** (hoặc phiên bản mới hơn).
 3. Chờ Gradle đồng bộ các thư viện (Build -> Clean Project).
-4. Chạy ứng dụng trên máy ảo hoặc thiết bị thật (API 32+).
+4. Chạy ứng dụng trên máy ảo hoặc thiết bị thật (API 32+)
 
 ---
 **Author:** ADMIN 
