@@ -5,8 +5,8 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="app\Image\home.png" width="300" title="Trang chủ">
-  <img src="app\Image\img1.png" width="300" title="Chi tiết sản phẩm">
+  <img src="app/Image/home.png" width="300" title="Trang chủ">
+  <img src="app/Image/img1.png" width="300" title="Chi tiết sản phẩm">
 </p>
 
 ## ✨ Tính năng nổi bật
