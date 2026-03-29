@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,32 +23,28 @@ import com.example.doan_ltmb.MainActivity;
 import com.example.doan_ltmb.R;
 import com.example.doan_ltmb.data.model.Category;
 import com.example.doan_ltmb.data.model.Product;
+import com.example.doan_ltmb.data.repository.ProductRepository;
 import com.example.doan_ltmb.databinding.FragmentHomeBinding;
 import com.example.doan_ltmb.ui.adapter.BannerAdapter;
 import com.example.doan_ltmb.ui.adapter.CategoryAdapter;
 import com.example.doan_ltmb.ui.adapter.ProductAdapter;
 import com.example.doan_ltmb.ui.product.ProductDetailActivity;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.google.android.material.tabs.TabLayoutMediator;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.reflect.Type;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements HomeContract.View {
 
     private FragmentHomeBinding binding;
     private ProductAdapter productAdapter;
     private CategoryAdapter categoryAdapter;
-    private List<Product> allProducts = new ArrayList<>();
     private List<String> bannerImages = new ArrayList<>();
     private Handler bannerHandler = new Handler(Looper.getMainLooper());
     private Runnable bannerRunnable;
     private AutoCompleteTextView etSearchMain;
+    
+    private HomeContract.Presenter presenter;
 
     @Nullable
     @Override
@@ -60,11 +57,14 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         
+        presenter = new HomePresenter(this, new ProductRepository(requireContext()));
+        
         setupRecyclerViews();
         setupBanner();
         setupSearch();
         setupSwipeRefresh();
-        loadData();
+        
+        presenter.loadData();
     }
 
     private void setupRecyclerViews() {
@@ -81,31 +81,29 @@ public class HomeFragment extends Fragment {
         binding.rvCategories.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
         binding.rvCategories.setAdapter(categoryAdapter);
         categoryAdapter.setOnCategoryClickListener(category -> {
-            filterProductsByCategory(category.getId());
+            presenter.filterByCategory(category.getId());
         });
     }
 
     private void setupBanner() {
-        bannerImages.clear();
-        // SỬ DỤNG LINK BANNER THẬT VÀ ỔN ĐỊNH
-        bannerImages.add("https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-nam-sn36-1.jpg");
-        bannerImages.add("https://zerdio.com.vn/wp-content/uploads/2021/04/non-snapback-SN50.jpgkl");
-        bannerImages.add("https://zerdio.com.vn/wp-content/uploads/2021/05/Mu-Snapback-World-Wide-SN64-1.jpg");
-        bannerImages.add("https://zerdio.com.vn/wp-content/uploads/2021/12/mu-len-beanie-ML021.jpg");
-        bannerImages.add("https://zerdio.com.vn/wp-content/uploads/2021/04/Mu-Snapback-CASH-Phong-Cach-Hiphop-Ca-Tinh-1-1.jpg");
         BannerAdapter bannerAdapter = new BannerAdapter(bannerImages);
         binding.bannerViewPager.setAdapter(bannerAdapter);
 
-        if (bannerRunnable != null) bannerHandler.removeCallbacks(bannerRunnable);
+        new TabLayoutMediator(binding.bannerIndicator, binding.bannerViewPager, (tab, position) -> {
+        }).attach();
+    }
 
+    private void startAutoSlider() {
+        if (bannerRunnable != null) bannerHandler.removeCallbacks(bannerRunnable);
+        
         bannerRunnable = () -> {
             if (binding == null || bannerImages.isEmpty()) return;
             int currentItem = binding.bannerViewPager.getCurrentItem();
             int nextItem = (currentItem + 1) % bannerImages.size();
             binding.bannerViewPager.setCurrentItem(nextItem, true);
-            bannerHandler.postDelayed(bannerRunnable, 4000);
+            bannerHandler.postDelayed(bannerRunnable, 5000);
         };
-        bannerHandler.postDelayed(bannerRunnable, 4000);
+        bannerHandler.postDelayed(bannerRunnable, 5000);
     }
 
     private void setupSearch() {
@@ -119,7 +117,7 @@ public class HomeFragment extends Fragment {
                 public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
                 @Override
                 public void onTextChanged(CharSequence s, int start, int before, int count) {
-                    filterProducts(s.toString());
+                    presenter.searchProducts(s.toString());
                 }
                 @Override
                 public void afterTextChanged(Editable s) {}
@@ -127,111 +125,65 @@ public class HomeFragment extends Fragment {
 
             etSearchMain.setOnItemClickListener((parent, v, position, id) -> {
                 String selected = (String) parent.getItemAtPosition(position);
-                filterProducts(selected);
+                presenter.searchProducts(selected);
             });
         }
     }
 
     private void setupSwipeRefresh() {
-        binding.swipeRefresh.setOnRefreshListener(this::loadData);
+        binding.swipeRefresh.setOnRefreshListener(() -> presenter.loadData());
     }
 
-    private void loadData() {
+    @Override
+    public void showProgressBar() {
         binding.progressBar.setVisibility(View.VISIBLE);
+    }
 
-        // 1. Load Categories
-        List<Category> categories = new ArrayList<>();
-        categories.add(createCategory("0", "Tất cả"));
-        categories.add(createCategory("1", "Snapback"));
-        categories.add(createCategory("2", "Mũ Lưỡi Trai"));
-        categories.add(createCategory("3", "Mũ Len"));
-        categoryAdapter.setCategories(categories);
-
-        // 2. Load Products từ JSON
-        allProducts.clear();
-        String json = loadJSONFromAsset("products.json");
-        if (json != null) {
-            try {
-                Gson gson = new Gson();
-                Type listType = new TypeToken<List<Product>>(){}.getType();
-                List<Product> products = gson.fromJson(json, listType);
-                if (products != null) {
-                    allProducts.addAll(products);
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        if (allProducts.isEmpty()) {
-            // Dữ liệu fallback nếu JSON lỗi
-            Product p = new Product();
-            p.setId("0");
-            p.setName("Đang cập nhật...");
-            p.setPrice(0);
-            allProducts.add(p);
-        }
-
-        productAdapter.setProducts(allProducts);
-        updateSearchSuggestions();
-
+    @Override
+    public void hideProgressBar() {
         binding.progressBar.setVisibility(View.GONE);
         binding.swipeRefresh.setRefreshing(false);
     }
 
-    private String loadJSONFromAsset(String fileName) {
-        try {
-            InputStream is = requireContext().getAssets().open(fileName);
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            return new String(buffer, StandardCharsets.UTF_8);
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            return null;
+    @Override
+    public void showCategories(List<Category> categories) {
+        categoryAdapter.setCategories(categories);
+    }
+
+    @Override
+    public void showProducts(List<Product> products) {
+        productAdapter.setProducts(products);
+    }
+
+    @Override
+    public void showBanners(List<String> bannerImages) {
+        this.bannerImages.clear();
+        this.bannerImages.addAll(bannerImages);
+        if (binding.bannerViewPager.getAdapter() != null) {
+            binding.bannerViewPager.getAdapter().notifyDataSetChanged();
         }
+        startAutoSlider();
     }
 
-    private Category createCategory(String id, String name) {
-        Category c = new Category();
-        c.setId(id);
-        c.setName(name);
-        return c;
-    }
-
-    private void updateSearchSuggestions() {
+    @Override
+    public void updateSearchSuggestions(List<String> productNames) {
         if (getContext() == null || etSearchMain == null) return;
-        List<String> productNames = allProducts.stream()
-                .map(Product::getName)
-                .collect(Collectors.toList());
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(),
                 android.R.layout.simple_dropdown_item_1line, productNames);
         etSearchMain.setAdapter(adapter);
     }
 
-    private void filterProducts(String query) {
-        List<Product> filtered = allProducts.stream()
-                .filter(p -> p.getName().toLowerCase().contains(query.toLowerCase()))
-                .collect(Collectors.toList());
-        productAdapter.setProducts(filtered);
-    }
-
-    private void filterProductsByCategory(String categoryId) {
-        if (categoryId.equals("0")) {
-            productAdapter.setProducts(allProducts);
-        } else {
-            List<Product> filtered = allProducts.stream()
-                    .filter(p -> p.getCategoryId() != null && p.getCategoryId().equals(categoryId))
-                    .collect(Collectors.toList());
-            productAdapter.setProducts(filtered);
-        }
+    @Override
+    public void showErrorMessage(String message) {
+        Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        if (bannerRunnable != null) bannerHandler.postDelayed(bannerRunnable, 4000);
+        if (!bannerImages.isEmpty()) {
+            startAutoSlider();
+        }
     }
 
     @Override
@@ -243,6 +195,7 @@ public class HomeFragment extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
+        if (presenter != null) presenter.onDestroy();
         binding = null;
     }
 }

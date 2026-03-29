@@ -25,20 +25,26 @@ public class BannerAdapter extends RecyclerView.Adapter<BannerAdapter.BannerView
     @Override
     public BannerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_banner, parent, false);
+        // Important for ViewPager2 items to have MATCH_PARENT params if intended to fill the view
+        view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         return new BannerViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull BannerViewHolder holder, int position) {
+        if (bannerImages == null || bannerImages.isEmpty()) return;
+
         Glide.with(holder.itemView.getContext())
                 .load(bannerImages.get(position))
+                .placeholder(android.R.drawable.ic_menu_gallery)
+                .error(android.R.drawable.stat_notify_error)
                 .centerCrop()
                 .into(holder.imageView);
     }
 
     @Override
     public int getItemCount() {
-        return bannerImages.size();
+        return bannerImages != null ? bannerImages.size() : 0;
     }
 
     static class BannerViewHolder extends RecyclerView.ViewHolder {

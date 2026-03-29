@@ -1,5 +1,6 @@
 package com.example.doan_ltmb.ui.adapter;
 
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -16,6 +17,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
 
     private List<Category> categories = new ArrayList<>();
     private OnCategoryClickListener listener;
+    private int selectedPosition = 0; // Mặc định chọn "Tất cả" (vị trí 0)
 
     public interface OnCategoryClickListener {
         void onCategoryClick(Category category);
@@ -39,7 +41,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
 
     @Override
     public void onBindViewHolder(@NonNull CategoryViewHolder holder, int position) {
-        holder.bind(categories.get(position));
+        holder.bind(categories.get(position), position == selectedPosition);
     }
 
     @Override
@@ -55,9 +57,30 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
             this.binding = binding;
         }
 
-        public void bind(Category category) {
+        public void bind(Category category, boolean isSelected) {
             binding.tvCategoryName.setText(category.getName());
+
+            if (isSelected) {
+                // MÀU KHI ĐƯỢC CHỌN (Ví dụ: Nền hồng tím, chữ trắng)
+                binding.getRoot().setCardBackgroundColor(Color.parseColor("#E1BEE7")); // Màu tím nhạt
+                binding.tvCategoryName.setTextColor(Color.parseColor("#7B1FA2")); // Màu tím đậm
+                binding.getRoot().setStrokeWidth(2);
+                binding.getRoot().setStrokeColor(Color.parseColor("#7B1FA2"));
+            } else {
+                // MÀU MẶC ĐỊNH (Nền trắng, chữ đen)
+                binding.getRoot().setCardBackgroundColor(Color.WHITE);
+                binding.tvCategoryName.setTextColor(Color.BLACK);
+                binding.getRoot().setStrokeWidth(0);
+            }
+
             binding.getRoot().setOnClickListener(v -> {
+                int previousSelected = selectedPosition;
+                selectedPosition = getAdapterPosition();
+                
+                // Cập nhật lại giao diện cho 2 item cũ và mới
+                notifyItemChanged(previousSelected);
+                notifyItemChanged(selectedPosition);
+
                 if (listener != null) {
                     listener.onCategoryClick(category);
                 }
