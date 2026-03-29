@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- TikTok Shop Inspired Colors -->
+    <color name="primary_black">#121212</color>
+    <color name="tiktok_red">#FF2D55</color>
+    <color name="tiktok_cyan">#25F4EE</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_search">#F2F2F2</color>
+    <color name="gray_medium">#999999</color>
+    <color name="gray_dark">#666666</color>
+    <color name="divider_color">#EEEEEE</color>
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF2D55</color>
+
+    <color name="bg_search">#F2F2F2</color>
+</resources>

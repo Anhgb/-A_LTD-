@@ -1,0 +1,963 @@
+[
+  {
+    "id": "1",
+    "name": "Snapback NY Classic Cao Cấp",
+    "price": 550000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-nam-cao-cap.jpg",
+    "category_id": "1",
+    "description": "Mẫu nón snapback NY thêu chữ nổi phong cách hiphop cực chất, chất liệu kaki dày dặn giữ form cực tốt.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-nam-cao-cap.jpg" },
+      { "colorCode": "#ffffff", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-nam-9.jpg" },
+      { "colorCode": "#B71C1C", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/non-snapback-nam-2.jpg" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Nón Snapback HipHop Graffiti",
+    "price": 480000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-luoi-trai-hiphop-1.jpg",
+    "category_id": "1",
+    "description": "Họa tiết graffiti trẻ trung, năng động dưới vành mũ tạo điểm nhấn khác biệt cho phong cách của bạn.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-luoi-trai-hiphop-1.jpg" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Mũ Snapback Trơn Classic",
+    "price": 350000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-tron-den.jpg",
+    "category_id": "1",
+    "description": "Dòng mũ trơn tối giản dễ phối đồ, phù hợp cho cả nam và nữ với nhiều lựa chọn màu sắc cơ bản.",
+    "colors": [
+      { "colorCode": "#212121", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-tron-den.jpg" },
+      { "colorCode": "#D32F2F", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-mau-do-tron-1.jpg" }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Nón Jordan Jumpman Hiphop",
+    "price": 520000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/05/mu-jordan.jpg",
+    "category_id": "1",
+    "description": "Biểu tượng Jumpman thêu sắc nét, chất liệu vải cotton thấm hút mồ hôi tốt.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/05/mu-jordan.jpg" }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Mũ Snapback DOLLA SN66",
+    "price": 320000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/05/mu-snapback-dolla-1.jpg",
+    "category_id": "1",
+    "description": "Họa tiết thêu Dolla phong cách Mỹ, khóa nhựa điều chỉnh size linh hoạt.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/05/mu-snapback-dolla-1.jpg" }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Snapback Barber Brooklyn SN42",
+    "price": 450000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/Non-Snapback-Barber-Brooklyn-SN42-1.jpg",
+    "category_id": "1",
+    "description": "Thiết kế dành riêng cho những tín đồ của phong cách Barber và Brooklyn bụi bặm.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/Non-Snapback-Barber-Brooklyn-SN42-1.jpg" }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Mũ Snapback USA Flag SN54",
+    "price": 390000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-SN54-1.jpg",
+    "category_id": "1",
+    "description": "Thêu hình cờ Mỹ cá tính, phù hợp cho các buổi dã ngoại, đi chơi đường phố.",
+    "colors": [
+      { "colorCode": "#1A237E", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-SN54-1.jpg" }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Snapback Black Skullcap SN84",
+    "price": 420000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2022/09/non-snapback-den-SN84-1.jpg",
+    "category_id": "1",
+    "description": "Màu đen tuyền lịch lãm với logo Skullcap được thêu 3D tinh xảo.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2022/09/non-snapback-den-SN84-1.jpg" }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Mũ Snapback HipHop SN56",
+    "price": 380000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-sn56-1.jpg",
+    "category_id": "1",
+    "description": "Thiết kế trẻ trung với form nón sâu, đội cực kỳ thoải mái và tôn dáng mặt.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-sn56-1.jpg" }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Nón Snapback Cây Dừa SN01",
+    "price": 290000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-SN43-1.jpg",
+    "category_id": "1",
+    "description": "Họa tiết cây dừa nhiệt đới dưới vành mũ, mang lại không khí mùa hè sôi động.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-SN43-1.jpg" }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Snapback Bull 23 Chicago",
+    "price": 550000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/non-snapback-SN41-1.jpg",
+    "category_id": "1",
+    "description": "Phong cách bóng rổ huyền thoại Chicago Bulls.",
+    "colors": [
+      { "colorCode": "#B71C1C", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/non-snapback-SN41-1.jpg" }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Mũ Snapback NY Thêu Chữ Trắng",
+    "price": 350000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-nam-9.jpg",
+    "category_id": "1",
+    "description": "Thiết kế kinh điển NY, thêu nổi 3D cực sắc nét.",
+    "colors": [
+      { "colorCode": "#ffffff", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-nam-9.jpg" }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Nón Snapback Đen Trơn Basic",
+    "price": 250000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-tron-den.jpg",
+    "category_id": "1",
+    "description": "Mũ snapback trơn màu đen, dễ dàng phối hợp với mọi loại trang phục.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-tron-den.jpg" }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Mũ Snapback Đỏ Trơn SN03",
+    "price": 250000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-mau-do-tron-1.jpg",
+    "category_id": "1",
+    "description": "Màu đỏ rực rỡ, thu hút mọi ánh nhìn, cá tính mạnh mẽ.",
+    "colors": [
+      { "colorCode": "#D32F2F", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-mau-do-tron-1.jpg" }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Nón Snapback HipHop Nam SN02",
+    "price": 390000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/non-snapback-nam-2.jpg",
+    "category_id": "1",
+    "description": "Kiểu dáng hiện đại, họa tiết độc đáo mang đậm phong cách đường phố.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/non-snapback-nam-2.jpg" }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Snapback New Era Black Classic",
+    "price": 550000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-nam-cao-cap.jpg",
+    "category_id": "1",
+    "description": "Dòng sản phẩm cao cấp, chất liệu bền bỉ theo thời gian.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-nam-cao-cap.jpg" }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Mũ Snapback HipHop White",
+    "price": 320000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-nam-9.jpg",
+    "category_id": "1",
+    "description": "Màu trắng tinh khôi, trẻ trung và nổi bật.",
+    "colors": [
+      { "colorCode": "#ffffff", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-nam-9.jpg" }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Snapback Red Classic",
+    "price": 350000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-mau-do-tron-1.jpg",
+    "category_id": "1",
+    "description": "Thiết kế đơn giản nhưng không bao giờ lỗi mốt.",
+    "colors": [
+      { "colorCode": "#D32F2F", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/mu-snapback-mau-do-tron-1.jpg" }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Snapback Barber Black",
+    "price": 450000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/Non-Snapback-Barber-Brooklyn-SN42-1.jpg",
+    "category_id": "1",
+    "description": "Mẫu nón chuyên biệt cho dân hiphop và streetstyle.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/Non-Snapback-Barber-Brooklyn-SN42-1.jpg" }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "USA Flag Snapback Blue",
+    "price": 390000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-SN54-1.jpg",
+    "category_id": "1",
+    "description": "Màu xanh navy kết hợp họa tiết cờ Mỹ cực chất.",
+    "colors": [
+      { "colorCode": "#1A237E", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-SN54-1.jpg" }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Skullcap Snapback SN84",
+    "price": 420000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2022/09/non-snapback-den-SN84-1.jpg",
+    "category_id": "1",
+    "description": "Thiết kế tối tăm, mạnh mẽ với hình thêu sọ người độc đáo.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2022/09/non-snapback-den-SN84-1.jpg" }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "HipHop SN56 Black",
+    "price": 380000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-sn56-1.jpg",
+    "category_id": "1",
+    "description": "Dòng mũ bán chạy nhất tại Zerdio.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-snapback-sn56-1.jpg" }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Palm Tree Snapback",
+    "price": 290000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/03/non-snapback-cay-dua-sn01-1.jpg",
+    "category_id": "1",
+    "description": "Mang hơi thở của biển cả vào phong cách của bạn.",
+    "colors": [
+      { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/03/non-snapback-cay-dua-sn01-1.jpg" }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Bull 23 Red Edition",
+    "price": 550000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/Non-snapback-Bull-23-SN47-1.jpg",
+    "category_id": "1",
+    "description": "Huyền thoại bóng rổ số 23.",
+    "colors": [
+      { "colorCode": "#B71C1C", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/Non-snapback-Bull-23-SN47-1.jpg" }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Mũ Lưỡi Trai Đen Trơn Classic Khóa Đồng Cao Cấp Cho Nam và Nữ",
+    "price": 300000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2020/12/mu-luoi-trai-den-tron-9.jpg",
+    "category_id": "2",
+    "description": "Mũ lưỡi trai đen trơn thể hiện lối sống của đa số người trẻ đương đại – TỐI GIẢN. Chiếc nón kết đen trơn là một trong những xu hướng thời trang năm 2025 được nhiều người theo đuổi. ",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2020/12/mu-luoi-trai-den-tron-9.jpg" }]
+  },
+  {
+    "id": "26",
+    "name": "Mũ Thời Trang Mẫu #26",
+    "price": 310000,
+    "image": "https://loremflickr.com/400/400/hat?lock=26",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF0000", "imageUrl": "https://loremflickr.com/400/400/hat,red?lock=26" }]
+  },
+  {
+    "id": "27",
+    "name": "Mũ Len Trùm Đầu Nam, Nữ Lót Lông Cực Ấm ",
+    "price": 320000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/08/ML01.jpg",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#0000FF", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-trum-kin-dau.jpg" },
+      {"colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/ML01.jpg" }]
+  },
+  {
+    "id": "28",
+    "name": "Mũ Lưỡi Trai Nam Hàng Hiệu JEEP Chính Hãng M194",
+    "price": 330000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/05/mu-luoi-trai-jeep-chinh-hang-1.jpg",
+    "category_id": "2",
+    "description": "Mũ Lưỡi Trai Nam Hàng Hiệu JEEP Chính Hãng M194 siêu phẩm thời trang với form dáng đẹp, logo thương hiệu bằng đồng nổi bật, chất liệu vải cotton từ bông tinh khiết có khả năng thấm hút mồ hôi tốt, nhiều màu tùy chọn, giao hàng tận nơi trên toàn quốc.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/05/mu-luoi-trai-jeep-chinh-hang-1.jpg" },
+      { "colorCode": "#0000FF", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/05/mu-luoi-trai-jeep-chinh-hang-16.jpg" }]
+  },
+  {
+    "id": "29",
+    "name": "Mũ Thời Trang Mẫu #29",
+    "price": 340000,
+    "image": "https://loremflickr.com/400/400/hat?lock=29",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFFF00", "imageUrl": "https://loremflickr.com/400/400/hat,yellow?lock=29" }]
+  },
+  {
+    "id": "30",
+    "name": "Mũ Len Beanie ML03 Phong Cách Hàn Quốc Cá Tính #30",
+    "price": 350000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-beanie-ML03.jpg",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-ML03-3.jpg" },
+    { "colorCode": "#FF00FF", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-ML03-4.jpg" }]
+  },
+  {
+    "id": "31",
+    "name": "Mũ Lưỡi Trai Vành Ngắn Phong Cách Hàn Quốc Cho Nam, Nữ",
+    "price": 360000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2022/12/mu-luoi-trai-vanh-ngan.jpg",
+    "category_id": "2",
+    "description": "Bạn đã biết tới kiểu mũ lưỡi trai vành ngắn đầy cá tính đang hot rần rần hiện nay chưa? Tham khảo ngay",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2022/12/mu-luoi-trai-vanh-ngan-nam.jpg" }]
+  },
+  {
+    "id": "32",
+    "name": "Mũ Thời Trang Mẫu #32",
+    "price": 370000,
+    "image": "https://loremflickr.com/400/400/hat?lock=32",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFA500", "imageUrl": "https://loremflickr.com/400/400/hat,orange?lock=32" }]
+  },
+  {
+    "id": "33",
+    "name": "Mũ Len Kiểu Hàn Quốc Beanie Cho Nam và Nữ",
+    "price": 380000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-kieu-Han-Quoc-ML04.jpg",
+    "category_id": "3",
+    "description": "Mũ len kiểu Hàn Quốc là kiểu mũ giúp giữ ấm tốt trong mùa đông thì không thể nào bỏ qua được. Mũ len phong cách Hàn Quốc được đánh giá cao về tính đa dạng trong phong cách với vẻ trẻ trung và năng động. Không chỉ các cô gái mà các chàng trai cũng rất hợp với những chiếc mũ len nam kiểu hàn quốc để vừa sành điệu vừa ấm áp.",
+    "colors": [{ "colorCode": "#A52A2A", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/non-beanie-han-quoc-1.jpg" },
+  { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-nam-han-quoc-1.jpg" }]
+  },
+  {
+    "id": "34",
+    "name": "Mũ Lưỡi Trai Nhung Classic Khóa Đồng Cao Cấp",
+    "price": 390000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-luoi-trai-nhung-den-1.jpg",
+    "category_id": "2",
+    "description": "Mũ lưỡi trai nhung Classic khóa đồng cao cấp là thiết kế thời trang mang phong cách cá tính, hiện đại. Đây là sự lựa chọn của nhiều tín đồ thời trang hiện nay.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-luoi-trai-nhung-den-1.jpg" }]
+  },
+  {
+    "id": "35",
+    "name": "Mũ Thời Trang Mẫu #35",
+    "price": 400000,
+    "image": "https://loremflickr.com/400/400/hat?lock=35",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://loremflickr.com/400/400/hat,black?lock=35" }]
+  },
+  {
+    "id": "36",
+    "name": "Mũ Len Trắng, Đỏ, Đen, Xám, Tím Than Alien Cá Tính",
+    "price": 410000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-trang.jpg",
+    "category_id": "3",
+    "description": "Mũ len trắng, đỏ, đen, xám, tím than là món phụ kiện được rất nhiều bạn trẻ yêu thích vào những ngày trời trở lạnh. Khi thời tiếtMũ len trắng, đỏ, đen, xám, tím than là món phụ kiện được rất nhiều bạn trẻ yêu thích vào những ngày trời trở lạnh.",
+    "colors": [{ "colorCode": "#FF0000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-do-1.jpg" },
+      { "colorCode": "#FFFFFF", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-trang-1.jpg" },
+  { "colorCode": "#0000FF", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/ML05-1-1.jpg" }]
+  },
+  {
+    "id": "37",
+    "name": "Mũ Lưỡi Trai Force, Nón Kết Màu Đen Vải Cotton Cao Cấp",
+    "price": 420000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2020/07/non-ket-nam-den-2.jpg",
+    "category_id": "2",
+    "description": "Chiếc mũ lưỡi trai, nón kết force lấy họa tiết lực lượng đặc nhiệm làm điểm nhấn cho chiếc mũ. Sở hữu chất liệu vải 100% cotton cao cấp và 6 lỗ thoáng khí để khi đội chiếc mũ này bạn sẽ không cảm thấy bị bí bách mà cảm thấy rất thoáng mát và dễ chịu khi đội chiếc mũ nữ, nón kết nam đen này. ",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2020/07/non-ket-nam-den-2.jpg" }]
+  },
+  {
+    "id": "38",
+    "name": "Mũ Thời Trang Mẫu #38",
+    "price": 430000,
+    "image": "https://loremflickr.com/400/400/hat?lock=38",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FF00", "imageUrl": "https://loremflickr.com/400/400/hat,green?lock=38" }]
+  },
+  {
+    "id": "39",
+    "name": "Mũ Len Beanie Họa Tiết Lính ML011",
+    "price": 440000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-beanie-linh-ML011.jpg",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FF00", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-beanie-linh-ML011.jpg" },
+  { "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-beanie-linh-ML011-1.jpg" }]
+  },
+  {
+    "id": "40",
+    "name": "Mũ Thời Trang Mẫu #40",
+    "price": 450000,
+    "image": "https://loremflickr.com/400/400/hat?lock=40",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF00FF", "imageUrl": "https://loremflickr.com/400/400/hat,magenta?lock=40" }]
+  },
+  {
+    "id": "41",
+    "name": "Mũ Thời Trang Mẫu #41",
+    "price": 460000,
+    "image": "https://loremflickr.com/400/400/hat?lock=41",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FFFF", "imageUrl": "https://loremflickr.com/400/400/hat,cyan?lock=41" }]
+  },
+  {
+    "id": "42",
+    "name": "Mũ Len Đen, Xám, Tím Trơn Kiểu Dáng Beanie Tối Giản",
+    "price": 470000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-nam-den-1.jpg",
+    "category_id": "3",
+    "description": "Mũ len đen là kiểu mũ yêu thích của mọi người trong những ngày thời tiết lạnh và rất lạnh. Kiểu mũ len đen đã trở thành huyền thoại khi được rất nhiều người yêu thích và lựa chọn sử dụng dù ở thời đại nào.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-nam-den-1.jpg" }]
+  },
+  {
+    "id": "43",
+    "name": "Mũ Trắng trơn classic",
+    "price": 480000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/09/Mu-Luoi-Trai-Trang-Tron-Classic-Cap-Cao-Cap.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFFFFF", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/09/Mu-Luoi-Trai-Trang-Tron-Classic-Cap-Cao-Cap.jpg" }]
+  },
+  {
+    "id": "44",
+    "name": "Mũ Thời Trang Mẫu #44",
+    "price": 490000,
+    "image": "https://loremflickr.com/400/400/hat?lock=44",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#800080", "imageUrl": "https://loremflickr.com/400/400/hat,purple?lock=44" }]
+  },
+  {
+    "id": "45",
+    "name": "Mũ Thời Trang Mẫu #45",
+    "price": 500000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-kem-khan-ML010.jpg",
+    "category_id": "3",
+    "description": "Mũ mùa đông – Phụ kiện không thể thiếu khi trời lạnh. Tham khảo ngay bộ mũ mùa đông gồm mũ và khăn quàng cổ chất liệu len mềm, lót lông cực ấm cho cả nam và nữ đang được yêu thích hiện nay.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-kem-khan-ML010-1.jpg" },
+      { "colorCode": "#FF0000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-kem-khan-ML010-4.jpg" }]
+  },
+  {
+    "id": "46",
+    "name": "Mũ Lưỡi Trai Lính Mỹ Rằn Ri Form Cứng, Vải Cotton Dày Dặn",
+    "price": 510000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-luoi-trai-linh-my.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF0000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-luoi-trai-linh-my.jpg" }]
+  },
+  {
+    "id": "47",
+    "name": "Mũ Thời Trang Mẫu #47",
+    "price": 520000,
+    "image": "https://loremflickr.com/400/400/hat?lock=47",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#0000FF", "imageUrl": "https://loremflickr.com/400/400/hat,blue?lock=47" }]
+  },
+  {
+    "id": "48",
+    "name": "Mũ Len Hình Quả Trám Dễ Thương Cho Nữ",
+    "price": 530000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/02/mu-len-hinh-qua-tram-ML025-5.jpg",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới =)).",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/02/mu-len-hinh-qua-tram-ML025-5.jpg" }]
+  },
+  {
+    "id": "49",
+    "name": "Mũ Lưỡi Trai Da Bò Thật Màu Đen, Nâu Cực Bền",
+    "price": 540000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/05/non-ket-da-bo.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFFF00", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/05/non-ket-da-bo.jpg" }]
+  },
+  {
+    "id": "50",
+    "name": "Mũ Thời Trang Mẫu #50",
+    "price": 550000,
+    "image": "https://loremflickr.com/400/400/hat?lock=50",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF00FF", "imageUrl": "https://loremflickr.com/400/400/hat,magenta?lock=50" }]
+  },
+  {
+    "id": "51",
+    "name": "Mũ Thời Trang Mẫu #51",
+    "price": 560000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/09/Mu-Len-Det-Kim-Nam-Nu-ML035-Co-Che-Tai-Phong-Cach-Han-Quoc.jpg",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FFFF", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/09/Mu-Len-Det-Kim-Nam-Nu-ML035-Co-Che-Tai-Phong-Cach-Han-Quoc-14.jpg" },
+      { "colorCode": "#000000", "imageUrl": "hhttps://zerdio.com.vn/wp-content/uploads/2023/09/Mu-Len-Det-Kim-Nam-Nu-ML035-Co-Che-Tai-Phong-Cach-Han-Quoc-15.jpg" },
+  { "colorCode": "#CCCC00", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/09/Mu-Len-Det-Kim-Nam-Nu-ML035-Co-Che-Tai-Phong-Cach-Han-Quoc-12.jpg" }]
+  },
+  {
+    "id": "52",
+    "name": "Mũ Lưỡi Trai Smile Form Mềm Vải Cotton Cao Cấp",
+    "price": 570000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2022/12/Mu-Luoi-Trai-Smile-Form-Mem-Vai-Cotton-Cao-Cap-1.jpg",
+    "category_id": "2",
+    "description": "Mũ Lưỡi Trai Smile Form Mềm Vải Cotton Cao Cấp",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2022/12/Mu-Luoi-Trai-Smile-Form-Mem-Vai-Cotton-Cao-Cap-1.jpg" }]
+  },
+  {
+    "id": "53",
+    "name": "Mũ Thời Trang Mẫu #53",
+    "price": 580000,
+    "image": "https://loremflickr.com/400/400/hat?lock=53",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#A52A2A", "imageUrl": "https://loremflickr.com/400/400/hat,brown?lock=53" }]
+  },
+  {
+    "id": "54",
+    "name": "Mũ Len Sport Kèm Khăn ML07",
+    "price": 590000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-kem-khan-ML07.jpg",
+    "category_id": "3",
+    "description": "Mũ Len Sport Kèm Khăn ML07, mũ len mùa đông kiểu dáng thời trang, chất liệu len dệt kim ấm áp, dày dặn, co dãn tốt, không bai xù, phù hợp cho cả nam và nữ, giao hàng tận nơi trên toàn quốc. Tham khảo ngay chi tiết sản phẩm!",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-kem-khan-ML07.jpg" }]
+  },
+  {
+    "id": "55",
+    "name": "Mũ lưỡi trai NoVams M42 đen",
+    "price": 600000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-luoi-trai-12.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/04/mu-luoi-trai-12.jpg" }]
+  },
+  {
+    "id": "56",
+    "name": "Mũ Thời Trang Mẫu #56",
+    "price": 610000,
+    "image": "https://loremflickr.com/400/400/hat?lock=56",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF0000", "imageUrl": "https://loremflickr.com/400/400/hat,red?lock=56" }]
+  },
+  {
+    "id": "57",
+    "name": "Mũ Len Hiphop Sport Cá Tính Cho Nam và Nữ",
+    "price": 620000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/12/mu-len-hiphop-1.jpg",
+    "category_id": "3",
+    "description": "Mũ len hiphop là chiếc mũ len thời trang ấm áp mang phong cách trẻ trung, cá tính rất được yêu thích. Đây là kiểu mũ len khá quen thuộc và giới trẻ cũng có thể nó trở thành một xu hướng thời trang hiện nay.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/12/mu-len-hiphop-1.jpg" }]
+  },
+  {
+    "id": "58",
+    "name": "Mũ Lưỡi Trai Phong Cách Hàn Quốc M145 Cho Nam, Nữ",
+    "price": 630000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/12/mu-chia-1.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/12/mu-chia-dep-1.jpg" }]
+  },
+  {
+    "id": "59",
+    "name": "Mũ Thời Trang Mẫu #59",
+    "price": 640000,
+    "image": "https://loremflickr.com/400/400/hat?lock=59",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFFF00", "imageUrl": "https://loremflickr.com/400/400/hat,yellow?lock=59" }]
+  },
+  {
+    "id": "60",
+    "name": "Mũ len Thời Trang",
+    "price": 650000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/09/Mu-Len-Nu-Thoi-Trang-Mua-Dong-ML033.jpg",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF00FF", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/09/Mu-Len-Nu-Thoi-Trang-Mua-Dong-ML033.jpg" }]
+  },
+  {
+    "id": "61",
+    "name": "Nón Lưới Nam Hàng Hiệu JEEP Form Cứng M195",
+    "price": 660000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/06/mu-luoi-trai-luoi-jeep-1.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/06/mu-luoi-trai-luoi-jeep-1.jpg" }]
+  },
+  {
+    "id": "62",
+    "name": "Mũ Thời Trang Mẫu #62",
+    "price": 670000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/01/mu-len-nam-hang-hieu-chinh-hang.jpg",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFA500", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/01/mu-len-nam-hang-hieu-chinh-hang.jpg" }]
+  },
+  {
+    "id": "63",
+    "name": "Mũ Len Thời Trang Hàng Hiệu",
+    "price": 680000,
+    "image": "https://loremflickr.com/400/400/hat?lock=63",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#A52A2A", "imageUrl": "https://loremflickr.com/400/400/hat,brown?lock=63" }]
+  },
+  {
+    "id": "64",
+    "name": "Nón Kết Nam Hàng Hiệu JEEP Chống Nước Cao Cấp M199",
+    "price": 690000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/06/mu-luoi-trai-jeep-chong-nuoc-M199-1.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới. Nón Kết Nam Hàng Hiệu JEEP Chống Nước Cao Cấp M199",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/06/mu-luoi-trai-jeep-chong-nuoc-M199-1.jpg" }]
+  },
+  {
+    "id": "65",
+    "name": "Mũ Thời Trang Mẫu #65",
+    "price": 700000,
+    "image": "https://loremflickr.com/400/400/hat?lock=65",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://loremflickr.com/400/400/hat,black?lock=65" }]
+  },
+  {
+    "id": "66",
+    "name": "Bộ 3 Mũ Len, Găng Tay, Khăn Quàng Cổ Len Nữ Dệt Kim Cao Cấp ML039",
+    "price": 710000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/09/Bo-3-Mu-Len-Gang-Tay-Khan-Quang-Co-Len-Nu-Det-Kim-Cao-Cap-ML039.jpg",
+    "category_id": "3",
+    "description": "Bộ 3 Mũ Len, Găng Tay, Khăn Quàng Cổ Len Nữ Dệt Kim Cao Cấp ML039 là set mũ len và khăn quàng cổ 3in1 tiện dụng với găng tay cảm ứng, chất liệu len Acrylic có lót nhung ấm áp, nhiều màu tùy chọn, giao hàng tận nơi trên toàn quốc, tham khảo ngay chi tiết sản phẩm!",
+    "colors": [{ "colorCode": "#FF0000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/09/Bo-3-Mu-Len-Gang-Tay-Khan-Quang-Co-Len-Nu-Det-Kim-Cao-Cap-ML039.jpg" }]
+  },
+  {
+    "id": "67",
+    "name": "Mũ Lưỡi Trai Có Kính Đàng Sau Chất Liệu Da Cao Cấp",
+    "price": 720000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/12/mu-luoi-trai-co-kinh.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#0000FF", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/12/mu-luoi-trai-co-kinh-5.jpg" }]
+  },
+  {
+    "id": "68",
+    "name": "Mũ Thời Trang Mẫu #68",
+    "price": 730000,
+    "image": "https://loremflickr.com/400/400/hat?lock=68",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FF00", "imageUrl": "https://loremflickr.com/400/400/hat,green?lock=68" }]
+  },
+  {
+    "id": "69",
+    "name": "Mũ Len Beanie Họa Tiết Lính ML011",
+    "price": 740000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-beanie-ml02.jpg",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFFF00", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/08/mu-len-beanie-ml02.jpg" }]
+  },
+  {
+    "id": "70",
+    "name": "Nón Thể Thao Nam, Nữ WODONBLE Chính Hãng",
+    "price": 750000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2022/12/non-ket-the-thao.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2022/12/non-ket-the-thao.jpg" }]
+  },
+  {
+    "id": "71",
+    "name": "Mũ Thời Trang Mẫu #71",
+    "price": 760000,
+    "image": "https://loremflickr.com/400/400/hat?lock=71",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FFFF", "imageUrl": "https://loremflickr.com/400/400/hat,cyan?lock=71" }]
+  },
+  {
+    "id": "72",
+    "name": "Mũ Len Nam Hàng Hiệu Cao Cấp 2",
+    "price": 770000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/09/Mu-Len-Nam-Hang-Hieu-WODONBLE-Cao-Cap-ML030.jpg",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFA500", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/09/Mu-Len-Nam-Hang-Hieu-WODONBLE-Cao-Cap-ML030.jpg" }]
+  },
+  {
+    "id": "73",
+    "name": "Mũ Thời Trang Mẫu #73",
+    "price": 780000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/06/mu-luoi-trai-nam.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#A52A2A", "imageUrl": "https://loremflickr.com/400/400/hat,brown?lock=73" }]
+  },
+  {
+    "id": "74",
+    "name": "Mũ Thời Trang Mẫu #74",
+    "price": 790000,
+    "image": "https://loremflickr.com/400/400/hat?lock=74",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#800080", "imageUrl": "https://loremflickr.com/400/400/hat,purple?lock=74" }]
+  },
+  {
+    "id": "75",
+    "name": "Mũ Lông Mong Cổ",
+    "price": 800000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2023/09/mu-long-mong-co.jpg",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2023/09/mu-long-mong-co.jpg" }]
+  },
+  {
+    "id": "76",
+    "name": "Mũ Thời Trang Mẫu #76",
+    "price": 810000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2022/02/mu-luoi-trai-chop-vuong-linh-my.jpg",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF0000", "imageUrl": "https://loremflickr.com/400/400/hat,red?lock=76" }]
+  },
+  {
+    "id": "77",
+    "name": "Mũ Thời Trang Mẫu #77",
+    "price": 820000,
+    "image": "https://loremflickr.com/400/400/hat?lock=77",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#0000FF", "imageUrl": "https://loremflickr.com/400/400/hat,blue?lock=77" }]
+  },
+  {
+    "id": "78",
+    "name": "Mũ Len Loang Màu Thời Trang ",
+    "price": 830000,
+    "image": "https://zerdio.com.vn/wp-content/uploads/2021/12/mu-len-beanie-ML021.jpg/",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FF00", "imageUrl": "https://zerdio.com.vn/wp-content/uploads/2021/12/mu-len-beanie-ML021.jpg" }]
+  },
+  {
+    "id": "79",
+    "name": "Mũ Thời Trang Mẫu #79",
+    "price": 840000,
+    "image": "https://loremflickr.com/400/400/hat?lock=79",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFFF00", "imageUrl": "https://loremflickr.com/400/400/hat,yellow?lock=79" }]
+  },
+  {
+    "id": "80",
+    "name": "Mũ Thời Trang Mẫu #80",
+    "price": 850000,
+    "image": "https://loremflickr.com/400/400/hat?lock=80",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF00FF", "imageUrl": "https://loremflickr.com/400/400/hat,magenta?lock=80" }]
+  },
+  {
+    "id": "81",
+    "name": "Mũ Thời Trang Mẫu #81",
+    "price": 860000,
+    "image": "https://loremflickr.com/400/400/hat?lock=81",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FFFF", "imageUrl": "https://loremflickr.com/400/400/hat,cyan?lock=81" }]
+  },
+  {
+    "id": "82",
+    "name": "Mũ Thời Trang Mẫu #82",
+    "price": 870000,
+    "image": "https://loremflickr.com/400/400/hat?lock=82",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFA500", "imageUrl": "https://loremflickr.com/400/400/hat,orange?lock=82" }]
+  },
+  {
+    "id": "83",
+    "name": "Mũ Thời Trang Mẫu #83",
+    "price": 880000,
+    "image": "https://loremflickr.com/400/400/hat?lock=83",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#A52A2A", "imageUrl": "https://loremflickr.com/400/400/hat,brown?lock=83" }]
+  },
+  {
+    "id": "84",
+    "name": "Mũ Thời Trang Mẫu #84",
+    "price": 890000,
+    "image": "https://loremflickr.com/400/400/hat?lock=84",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#800080", "imageUrl": "https://loremflickr.com/400/400/hat,purple?lock=84" }]
+  },
+  {
+    "id": "85",
+    "name": "Mũ Thời Trang Mẫu #85",
+    "price": 900000,
+    "image": "https://loremflickr.com/400/400/hat?lock=85",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://loremflickr.com/400/400/hat,black?lock=85" }]
+  },
+  {
+    "id": "86",
+    "name": "Mũ Thời Trang Mẫu #86",
+    "price": 910000,
+    "image": "https://loremflickr.com/400/400/hat?lock=86",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF0000", "imageUrl": "https://loremflickr.com/400/400/hat,red?lock=86" }]
+  },
+  {
+    "id": "87",
+    "name": "Mũ Thời Trang Mẫu #87",
+    "price": 920000,
+    "image": "https://loremflickr.com/400/400/hat?lock=87",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#0000FF", "imageUrl": "https://loremflickr.com/400/400/hat,blue?lock=87" }]
+  },
+  {
+    "id": "88",
+    "name": "Mũ Thời Trang Mẫu #88",
+    "price": 930000,
+    "image": "https://loremflickr.com/400/400/hat?lock=88",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FF00", "imageUrl": "https://loremflickr.com/400/400/hat,green?lock=88" }]
+  },
+  {
+    "id": "89",
+    "name": "Mũ Thời Trang Mẫu #89",
+    "price": 940000,
+    "image": "https://loremflickr.com/400/400/hat?lock=89",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFFF00", "imageUrl": "https://loremflickr.com/400/400/hat,yellow?lock=89" }]
+  },
+  {
+    "id": "90",
+    "name": "Mũ Thời Trang Mẫu #90",
+    "price": 950000,
+    "image": "https://loremflickr.com/400/400/hat?lock=90",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF00FF", "imageUrl": "https://loremflickr.com/400/400/hat,magenta?lock=90" }]
+  },
+  {
+    "id": "91",
+    "name": "Mũ Thời Trang Mẫu #91",
+    "price": 960000,
+    "image": "https://loremflickr.com/400/400/hat?lock=91",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FFFF", "imageUrl": "https://loremflickr.com/400/400/hat,cyan?lock=91" }]
+  },
+  {
+    "id": "92",
+    "name": "Mũ Thời Trang Mẫu #92",
+    "price": 970000,
+    "image": "https://loremflickr.com/400/400/hat?lock=92",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFA500", "imageUrl": "https://loremflickr.com/400/400/hat,orange?lock=92" }]
+  },
+  {
+    "id": "93",
+    "name": "Mũ Thời Trang Mẫu #93",
+    "price": 980000,
+    "image": "https://loremflickr.com/400/400/hat?lock=93",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#A52A2A", "imageUrl": "https://loremflickr.com/400/400/hat,brown?lock=93" }]
+  },
+  {
+    "id": "94",
+    "name": "Mũ Thời Trang Mẫu #94",
+    "price": 990000,
+    "image": "https://loremflickr.com/400/400/hat?lock=94",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#800080", "imageUrl": "https://loremflickr.com/400/400/hat,purple?lock=94" }]
+  },
+  {
+    "id": "95",
+    "name": "Mũ Thời Trang Mẫu #95",
+    "price": 1000000,
+    "image": "https://loremflickr.com/400/400/hat?lock=95",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#000000", "imageUrl": "https://loremflickr.com/400/400/hat,black?lock=95" }]
+  },
+  {
+    "id": "96",
+    "name": "Mũ Thời Trang Mẫu #96",
+    "price": 1010000,
+    "image": "https://loremflickr.com/400/400/hat?lock=96",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF0000", "imageUrl": "https://loremflickr.com/400/400/hat,red?lock=96" }]
+  },
+  {
+    "id": "97",
+    "name": "Mũ Thời Trang Mẫu #97",
+    "price": 1020000,
+    "image": "https://loremflickr.com/400/400/hat?lock=97",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#0000FF", "imageUrl": "https://loremflickr.com/400/400/hat,blue?lock=97" }]
+  },
+  {
+    "id": "98",
+    "name": "Mũ Thời Trang Mẫu #98",
+    "price": 1030000,
+    "image": "https://loremflickr.com/400/400/hat?lock=98",
+    "category_id": "1",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#00FF00", "imageUrl": "https://loremflickr.com/400/400/hat,green?lock=98" }]
+  },
+  {
+    "id": "99",
+    "name": "Mũ Thời Trang Mẫu #99",
+    "price": 1040000,
+    "image": "https://loremflickr.com/400/400/hat?lock=99",
+    "category_id": "3",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FFFF00", "imageUrl": "https://loremflickr.com/400/400/hat,yellow?lock=99" }]
+  },
+  {
+    "id": "100",
+    "name": "Mũ Thời Trang Mẫu #100",
+    "price": 1050000,
+    "image": "https://loremflickr.com/400/400/hat?lock=100",
+    "category_id": "2",
+    "description": "Sản phẩm thời trang phong cách mới.",
+    "colors": [{ "colorCode": "#FF00FF", "imageUrl": "https://loremflickr.com/400/400/hat,magenta?lock=100" }]
+  }
+]
